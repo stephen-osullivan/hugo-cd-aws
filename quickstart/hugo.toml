@@ -1,0 +1,8 @@
+baseURL = 'http://hugo-test-serve-bucker.s3-website.eu-west-2.amazonaws.com'
+languageCode = 'en-us'
+title = 'SOS HUGO AWS CD Website'
+theme = 'ananke'
+[[deployment.targets]]
+name = 'awsbucket'
+URL  = "s3://hugo-test-serve-bucker/?region=eu-west-2"
+
